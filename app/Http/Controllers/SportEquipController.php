@@ -9,6 +9,6 @@ class SportEquipController extends Controller
     public function index() //Request $request
     {
      //$request->session()->flush();
-     dd('ini halaman sports equipment');    
+     return view('sportsequip');    
     }
 }

@@ -1,0 +1,54 @@
+<style>
+    .sidebar {
+        background: rgb(11, 94, 88);
+        color: white;
+    }
+
+    .sidebar a {
+        color: #f0f0f0;
+        text-decoration: none;
+        display: block;
+        padding: 20px 10px;
+    }
+
+    .sidebar a:hover {
+        background: rgb(26, 26, 26);
+    }
+
+    .active {
+        background: rgb(26, 26, 26);
+        border-right: solid 10px orange;
+    }
+
+    .card-data {
+        border: solid 1px;
+        padding: 20px 30px;
+        background-color: rgb(80, 160, 218);
+        color: white;
+    }
+
+    .card-data.equipment {
+        background-color: rgb(83, 83, 206);
+    }
+
+    .card-data.category {
+        background-color: rgb(38, 127, 210);
+    }
+
+    .card-data.user {
+        background-color: rgb(31, 192, 160);
+    }
+    
+    .card-data i {
+        font-size: 60px;
+    }
+
+    .card-desc {
+        font-size: 20px;       
+    }
+
+    .card-count {
+        font-size: 20px;
+    }
+    
+</style>

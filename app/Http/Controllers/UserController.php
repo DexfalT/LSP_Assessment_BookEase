@@ -9,6 +9,11 @@ class UserController extends Controller
     public function profile()
     {
         //$request->session()->flush();
-        dd('ini halaman profile');
+        return view('profile');
+    }
+
+    public function index() 
+    {
+        return view('user');   
     }
 }
