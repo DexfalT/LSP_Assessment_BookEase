@@ -1,16 +1,24 @@
 @extends('layouts.mainlayout')
 
-@section('title', 'Category')
+@section('title', 'Deleted Drones')
 
 @section('page-name', 'dashboard')
 
 @section('content')
-    <h2>Category List</h2>
-    {{-- {{$categories}} --}}
+    <h1>Deleted Drone List</h1>
+
+    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
 
     <div class="mt-5 d-flex justify-content-end">
-        <a href="category-deleted" class="btn btn-secondary me-3">View Deleted Data</a>
-        <a href="category-add" class="btn btn-primary">Add Data</a>
+        <a href="/sportsequip" class="btn btn-primary">Back</a>
     </div>
 
     <div class='mt-5'>
@@ -26,18 +34,19 @@
             <thead>
                 <tr>
                     <th>No.</th>
+                    <th>Code</th>
                     <th>Name</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach ($categories as $item)
+                @foreach ($deletedDrones as $item)
                     <tr>
                         <td>{{ $loop->iteration }}</td>
-                        <td>{{ $item->name }}</td>
+                        <td>{{ $item->equip_code}}</td>
+                        <td> {{ $item->title }} </td>
                         <td>
-                            <a href="category-edit/{{$item->slug}}">edit</a>
-                            <a href="category-delete/{{$item->slug}}">delete</a>
+                            <a href="/drone-restore/{{ $item->slug }}">restore</a>
                         </td>
                     </tr>
                 @endforeach

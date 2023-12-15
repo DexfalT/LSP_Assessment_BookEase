@@ -1,47 +1,45 @@
-Nama Kelompok : Selalu Berkah
-Nama Team : Azka Tsawaab dhafin, Haidar Farros aji Almayda
-Nama Project : BookEase: Sewa Alat Olahraga
-List Fitur : 
-Authentication:
+## Kelompok(?)
+- Nama Kelompok: Luminox
 
-Register sebagai user (anggota).
-Login untuk mengakses web.
-User Profile:
+## Team
+- Azka Tsawaab Dhafin
 
-Setiap user hanya memiliki satu profil.
-User dapat mengubah profilnya.
-Admin Panel:
+## Nama Project
+NoxVoyage : Jasa Penyewaan Drone
 
-Admin dapat menambah, mengupdate, dan menghapus data unit.
-Admin dapat menambah, mengupdate, dan menghapus kategori unit.
-Admin dapat menambah, mengupdate, dan menghapus user (anggota).
-Unit Management:
+## FITUR TAMBAHAN
+Soft Deletes untuk Drone 🟢
+Soft Deletes untuk Categories 🟢
+Soft Deletes untuk User🟢
+Restore untuk Drone 🟢
+Restore untuk Categories 🟢
+Restore untuk User🟢
+Fitur Approve User untuk Register Akun 🟢
+Highlight di sidebar untuk setiap menu yang dipilih🟢
+Search Bar untuk cari drone🟢
 
-Setiap unit dapat memiliki multiple kategori.
-Nama unit dapat berjumlah lebih dari satu dan dapat dibedakan melalui kode unit.
-Kode unit tidak boleh sama.
-Pencarian unit berdasarkan nama unit.
-Peminjaman:
+## List Fitur
+1. Jenis Anggota: Admin dan User (Anggota) 🟢
+2. Login: Setiap user harus login untuk mengakses web.🟢
+3. Registrasi: User harus terdaftar sebagai anggota untuk meminjam/sewa unit.🟢
+4. Profil User: Setiap user hanya dapat memiliki satu profil dan dapat mengubahnya.
+5. Kategori Unit: Setiap unit dapat memiliki multiple kategori.🟢
+6. Nama Unit: Nama unit dapat berjumlah lebih dari satu, dibedakan melalui kode unit yang tidak boleh sama.🟢
+7. Pencarian Unit: User dapat mencari unit melalui nama unit.🟢
 
-User harus terdaftar sebagai anggota untuk meminjam/sewa unit.
-Setiap anggota hanya dapat meminjam maksimal 2 unit.
-Pinjaman maksimal 5 hari.
-Denda jika pinjaman lebih dari 5 hari.
-Hanya admin yang dapat melakukan pengembalian unit.
-Setiap anggota harus menghubungi admin untuk mengembalikan unit.
-List Peminjaman:
+8. Admin dapat:
+   a. Menambah, mengupdate, dan menghapus data unit, kategori 🟢
+      B.  dan user (anggota).
+9. Batasan Peminjaman: Setiap anggota hanya dapat meminjam maksimal 2 unit.
+10. Batasan Waktu Peminjaman: Pinjaman maksimal 5 hari dengan denda jika melebihi.
+11. Pengembalian Unit: Hanya Admin yang dapat melakukan pengembalian unit.
+12. List Peminjaman: Admin dapat melihat list unit yang dipinjam.
+13. Riwayat Peminjaman: Admin dapat melihat dan mencetak riwayat peminjaman unit dari user (anggota).
+14. Validasi: Validasi di setiap field yang diperlukan.🟢
+15. Migration: Buatlah tabel migration sesuai kebutuhan.🟢
+16. Data Seed: Seed data awal seperti user admin, kategori unit, dan list unit.🟢
 
-Admin dapat melihat list unit yang dipinjam oleh anggota.
-User (anggota) hanya dapat melihat list unit yang dipinjam olehnya sendiri.
-Riwayat Peminjaman:
-
-Admin dapat melihat dan mencetak riwayat peminjaman unit dari user (anggota).
-Validasi:
-
-Validasi di setiap field yang dirasa perlu untuk melakukan sebuah validasi.
-Database Migration dan Seeder:
-
-User dapat melakukan pencarian unit melalui nama unit.
-
-Screen capture gambar skema project dari database
-Screen recorder demo penjelasan website yang dibuat
+## Skema Database
+https://drive.google.com/drive/folders/12o-mL4Wg2Zm58PGhHY_iF-wZKM01yY_h?usp=sharing
+## Demo Website
+https://drive.google.com/drive/folders/12o-mL4Wg2Zm58PGhHY_iF-wZKM01yY_h?usp=sharing

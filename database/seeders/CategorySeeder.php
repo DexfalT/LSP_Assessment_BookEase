@@ -19,7 +19,7 @@ class CategorySeeder extends Seeder
         Schema::enableForeignKeyConstraints();
 
         $data = [
-            'bola', 'fitness', 'raket', 'permainan meja', 'air', 'bersepeda', 'olahraga salju'
+            'High-End', 'Budget-King', 'Enthusiasts', 'Low-end', 
         ];
 
         foreach ($data as $value) {

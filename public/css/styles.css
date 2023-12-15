@@ -1,54 +1,65 @@
 <style>
-    .sidebar {
-        background: rgb(11, 94, 88);
-        color: white;
-    }
 
-    .sidebar a {
-        color: #f0f0f0;
-        text-decoration: none;
-        display: block;
-        padding: 20px 10px;
-    }
+.sidebar {
+    background: #03375a; /* Blue color */
+    color: #fff; /* White text */
+    width: 200px;
+    min-height: 100vh;
 
-    .sidebar a:hover {
-        background: rgb(26, 26, 26);
-    }
+}
 
-    .active {
-        background: rgb(26, 26, 26);
-        border-right: solid 10px orange;
-    }
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
 
-    .card-data {
-        border: solid 1px;
-        padding: 20px 30px;
-        background-color: rgb(80, 160, 218);
-        color: white;
-    }
+.sidebar a:hover {
+    background: rgb(26, 26, 26);
+}
 
-    .card-data.equipment {
-        background-color: rgb(83, 83, 206);
-    }
+.active {
+    background: rgb(26, 26, 26);
+    border-right: solid 10px orange;
+}
 
-    .card-data.category {
-        background-color: rgb(38, 127, 210);
-    }
+/* Main Content Styles */
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+  
+}
 
-    .card-data.user {
-        background-color: rgb(31, 192, 160);
-    }
-    
-    .card-data i {
-        font-size: 60px;
-    }
+.card-data {
+    border: solid 1px;
+    padding: 20px 30px;
+    color: white;
+}
 
-    .card-desc {
-        font-size: 20px;       
-    }
+.card-data.equipment {
+    background-color: rgb(83, 83, 206);
+}
 
-    .card-count {
-        font-size: 20px;
-    }
-    
+.card-data.category {
+    background-color: rgb(38, 127, 210);
+}
+
+.card-data.user {
+    background-color: rgb(31, 192, 160);
+}
+
+.card-data i {
+    font-size: 60px;
+}
+
+.card-desc {
+    font-size: 20px;
+}
+
+.card-count {
+    font-size: 20px;
+}
+
+
 </style>

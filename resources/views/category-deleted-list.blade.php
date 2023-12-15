@@ -5,7 +5,7 @@
 @section('page-name', 'dashboard')
 
 @section('content')
-    <h1>Deleted Category List</h1>
+    <h2>Deleted Category List</h2>
 
     @if ($errors->any())
         <div class="alert alert-danger">
@@ -18,7 +18,7 @@
     @endif
 
     <div class="mt-5 d-flex justify-content-end">
-        <a href="categories" class="btn btn-primary">Back</a>
+        <a href="/categories" class="btn btn-primary">Back</a>
     </div>
 
     <div class='mt-5'>

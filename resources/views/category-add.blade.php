@@ -27,6 +27,7 @@
 
             <div class="mt-3">
                 <button class="btn btn-success" type="Submit">Save</button>
+                <button class="btn btn-secondary" type="button" onclick="window.location.href='/categories'">Cancel</button>
             </div>
     </div>
 @endsection
